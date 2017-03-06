@@ -1,0 +1,457 @@
+CODEWORKS-LIB-VOCABLISTINGS-SOURCECONTROL
+
+Classification levels
+
+The United States government classifies information according to the degree which the unauthorized disclosure would damage national security. Like many other countries, the US has three classifications levels. From the highest to the lowest level these are:
+
+- TOP SECRET (TS, color code: Orange)
+- SECRET (S, color code: Red)
+- CONFIDENTIAL (C, color code: Blue)
+
+Government documents that do not have a classification can be marked as:
+- UNCLASSIFIED (U, color code: Green)
+
+
+With 1.4 million people having a Top Secret clearance, it's obvious that additional measures are needed to protect the more sensitive information. Therefore, that information is put in separated compartments, only accessible for those people who have the 'need-to-know'.
+
+This system is called Sensitive Compartmented Information (SCI) for intelligence information, while other highly secret and sensitive information is protected by a Special Access Program (SAP). Both sub-systems will be explained below.
+
+The classification levels Confidential, Secret and Top Secret are sometimes called 'Collateral', denoting that no additional Intelligence Community control systems or compartmentations, like SCI or SAP, apply.
+
+
+
+SCI compartments
+
+Sensitive Compartmented Information (SCI) is a system to protect national intelligence information concerning sources and methods, and is divided into control systems and compartments, which are further subdivided in subcontrol systems and subcompartments.
+These systems and compartments are usually identified by a classified codeword, some of which were leaked or have been declassified. In total, there may be between 100 and 300 SCI compartments and subcompartments, grouped into about two dozen control systems.
+SCI control systems and there compartments are species of Controlled Access Programs (CAPs), which also include Non-SCI CAPs, like for example at the Secret level.
+
+Known and supposed SCI control systems from past and present are:
+
+
+ Cover sheet for Top Secret Special Intelligence and TALENT KEYHOLE information
+- COMINT or Special Intelligence (SI)
+- UMBRA (TSC?)
+- ENDSEAL (EL)
+- TALENT KEYHOLE (TK)
+- HUMINT Control System (HCS)
+- KLONDIKE (KDK, since 2011)
+- RESERVE (RSV, since 2005)
+- BYEMAN (BYE or B, defunct since 2005)
+- Special Navy Control Program (SNCP)
+- VERDANT (VER, defunct)
+- PANGRAM (PM, defunct)
+- MEDITATE (M, defunct)
+- SPECTRE
+- LOMA 
+- KLAMATH (KLM)
+- CREDIBLE WOLF (CW)
+- FOCAL POINT (FP)
+- AZURE BLUE (AB)
+- ? (GG)
+- ? (CRU)
+- ? (OC)
+- STELLARWIND (STLW, 2001-2009)
+
+In a classification line this is shown like: TOP SECRET//SI 
+
+Multiple control systems are shown like: TOP SECRET//SI/TK 
+
+
+COMINT / Special Intelligence (SI)
+This control system is for communications intercepts or Signals Intelligence and contains various sub-control systems and compartments, which are identified by an abbreviation or a codeword. In a classification line they follow COMINT or SI, connected by a hyphen.
+
+Known COMINT/SI sub-control systems are:
+- Very Restricted Knowledge (VRK, defunct)
+- Exceptionally Controlled Information (ECI)
+- GAMMA (G)
+- DELTA (D, defunct)
+- [undisclosed]
+
+In a classification line this is shown like: TOP SECRET//SI-G 
+
+Multiple COMINT compartments shown like: TOP SECRET//SI-VRK-G
+
+Very Restricted Knowledge (VRK)
+This sub-control system was established in 1974 to limit access to uniquely sensitive COMINT activities and programs (no product or content). It contains compartments or categories which have an identifier of one to three alpha numeric characters.* VRK was succeeded by ECI shortly before 2004.*
+
+Example: TOP SECRET//SI-VRK 11A
+
+Exceptionally Controlled Information (ECI)
+This sub-control system protects highly sensitive information and sources and contains compartments, which are identified by a classified codeword. In the classification line there's a three-letter abbreviation of this codeword. ECI succeeded VRK around 2004.*
+
+Recently disclosed codewords for ECI compartments include:
+- AMBULANT (AMB), APERIODIC, AUNTIE, ESCAPEE? (ESC), PAINTEDEAGLE, PAWLEYS, PENDLETON, PIEDMONT, PICARESQUE (PIQ), PITCHFORD, RAGTIME (RGT), REDHARVEST (RDV), WHIPGENIE (WPG).
+Lists of ECI compartments from 2003 and 2013.
+
+Example: TOP SECRET//SI-ECI PIQ 
+
+Multiple compartments: TOP SECRET//SI-ECI PIQ-ECI AMB
+
+Since 2011, SCI type indicators used to group compartments, like ECI, may not be used anymore in classification lines and portion markings. For example, information formerly marked TS//SI-ECI ABC must now be marked TS//SI-ABC.
+
+GAMMA (G)
+This sub-control system of SI is for highly sensitive communication intercepts (product or content)* and may contain compartments, which are identified by a codeword or an identifier of four alphabetic characters.
+
+Some former GAMMA compartments were: 
+- GABE, GANT, GART, GILT, GOAT, GOUT, GROL, GUPY, GYRO
+
+Example: TOP SECRET//SI-G GUPY
+
+Multiple compartments: TOP SECRET//SI-G GUPY GYRO
+
+[undisclosed]
+Classification manuals say there are undisclosed SI compartments which have identifiers of three alphabetical characters. Some documents from such a compartment were declassified in early May 2014. It seems that this compartment is for protecting information related to metadata collection, but is different from STELLARWIND.* It probably contains sub-compartments which are identified by three numeric characters.* 
+
+For example: TOP SECRET//SI-XXX 888
+
+
+STELLARWIND (STLW)
+This is a "controlled access signals intelligence program", created under presidential authorization in response to the attacks of September 11, 2001. It includes information related to the Terrorist Surveillance Program (TSP) and to the bulk telephony and internet metadata collection by the NSA.* It seems that STLW started as a COMINT compartment* but later on became a hitherto unknown classification category at the same level as SCI and SAP.
+
+> See also: About the STELLARWIND classification marking
+Terrorist Surveillance Program (TSP)
+The markings "TSP" and "Compartmented" were used instead of "STELLARWIND" in briefing materials and documents related to the STELLARWIND program intended for external audiences, such as Congress and the courts. The term "TSP" was initially used in relation to only that portion of the program that was publicly disclosed by president Bush in December 2005.*
+
+
+UMBRA
+This codeword was used since 1968 to protect the most sensitive intercepts of Communication Intelligence (COMINT). The use of this compartment was publicly terminated in 1999, but the Snowden-leaks revealed that NSA is still using it, probably as a registered but unpublished SCI control system for the content of communications collected under authority of EO 12333.
+> See also: NSA still uses the UMBRA compartment
+
+
+ENDSEAL (EL)
+The existance of this control system was declassified in 2014, but the name was already known in 2005. ENDSEAL is for finalized intelligence products, probably based upon information derived from US Navy SIGINT sensors. The raw data collected for ENDSEAL reports are likely handled under a different, still-classified coverterm. ENDSEAL information must always be classified as Special Intelligence (SI) too.*
+The control system contains compartments for intelligence products intended for dissemination to Intelligence Community consumers. These compartments are identified by a codeword and can be divided into sub-compartments.
+
+Declassified names of ENDSEAL compartments are:
+- ECRU (EU)
+- NONBOOK (NK)
+
+In a classification line this is shown like: TOP SECRET//EL-NK/SI 
+
+
+TALENT KEYHOLE (TK)
+This control system is for products of overhead collection systems, such as satellites and reconnaissance aircraft, and contains compartments, which are identified by a classified codeword. The original TALENT compartment was created in the mid-1950s for the U-2. In 1960, it was broadened to cover all national aerial reconnaissance and the KEYHOLE compartment was created for satellite intelligence.
+
+Some former TK subcompartments were:
+- CHESS, RUFF, DAFF and ZARF
+
+In a classification line this is shown like: TOP SECRET//TK-RUFF 
+
+
+RESERVE (RSV)
+This control system is for compartments protecting new sources and methods during the research, development, and acquisition process done by the National Reconnaissance Office (NRO). Compartments within RESERVE have an identifier of three alphanumeric characters.* There are no actual examples.
+
+In a classification line this is shown like: TOP SECRET//RSV-XXX 
+
+
+KLONDIKE (KDK)
+This control system is for Geospational Intelligence (GEOINT) produced by the National Reconnaissance Office (NRO). Since 2013, the control system contains compartments, which are identified by a codeword.
+
+Declassified names of KLONDIKE compartments are:
+- BLUEFISH (BLFH)
+- IDITAROD (IDIT)
+- KANDIK (KAND)
+
+In a classification line this is shown like: TOP SECRET//KDK-IDIT 
+
+BLUEFISH (BLFH)
+This compartment contains sub-compartments which are identified by up to six alphanumeric characters. There are no actual examples.
+
+Example: TOP SECRET//KDK-BLFH XXXXXX
+
+IDITAROD (IDIT)
+This compartment contains sub-compartments which are identified by up to six alphanumeric characters. There are no actual examples.
+
+Example: TOP SECRET//KDK-IDIT XXXXXX
+
+KANDIK (KAND)
+This compartment contains sub-compartments which are identified by up to six alphanumeric characters. There are no actual examples.
+
+Example: TOP SECRET//KDK-KAND XXXXXX
+
+
+? (GG)
+This control system is for information derived from Measurement and Signature Intelligence (MASINT) and is identified by a codeword that is still classified. It's only known by the abbreviation.*
+
+
+HUMINT Control System (HCS)
+This control system is for protecting Human Intelligence (HUMINT), which is derived from information collected and/or provided by human sources. It has four compartments, two of which were recently revealed.*
+
+Known compartments are:
+- HCS-OPERATIONS (HCS-O)
+- HCS-PRODUCT (HCS-P)
+
+In a classification line this is shown like: TOP SECRET//HCS-P 
+
+HCS-OPERATIONS (HCS-O)
+This compartment is for information related to ongoing clandestine human intelligence operations and therefore they require the ORCON and NOFORN dissemination markings. The information is also restricted from being disseminated outside the CIA. The compartment contains sub-compartments which are identified by up to six alphanumeric characters.* There are no actual examples.
+
+Example: TOP SECRET//HCS-O XXXXXX
+
+HCS-PRODUCT (HCS-P)
+This compartment is for sanitized intelligence that is derived from HCS operations with the sensitive sources and methods removed and intended for distribution among Intelligence Community consumers. It contains sub-compartments which are identified by up to six alphanumeric characters.*
+
+Example: TOP SECRET//HCS-P XXXXXX
+
+? (CRD)
+Sub-compartment of HCS-P, no further information available.*
+
+Shown like: TOP SECRET//HCS-P CRD
+
+
+KLAMATH (KLM)
+A CIA control system, which in 2003 included the NSA ECI compartments CONQUERER (for joint NSA/CIA clandestine radio frequency operations), LYSERGIC (for NSA efforts to select and prosecute foreign deployed telecommunication cables) and WASHBURN (for a CLANSIG effort to exploit a source in a Middle Eastern location).* 
+
+? (CRU)
+This control system is identified by a codeword that is still classified and is only known by the abbreviation which was accidentally revealed in 2009.* It's related to highly secret CIA programs.
+
+> More about the CRU classification marking
+
+A compartment of CRU seems to be:
+- GREYSTONE (GST)
+
+In a classification line this is shown like: TOP SECRET//CRU-GST 
+
+GREYSTONE (GST)
+This compartment is for information about the extraordinary rendition, interrogation and counter-terrorism programs, which the CIA established after the 9/11 attacks. It contains more than a dozen sub-compartments, which are identified by numeric characters.*
+
+Example: TOP SECRET//CRU-GST 001
+
+FOCAL POINT (FP)
+This compartment protects CIA support to the military, Special Technical Operations (STOs) and military CIA operations.*
+
+VERDANT (VER)
+Former Navy/NSA compartment for SIGINT information.*
+
+PANGRAM (PM)
+Former Navy/NSA compartment for information dealing with ocean surveillance.*
+
+MEDITATE (M)
+Former Navy/NSA compartment dealing with submarine operations and an IVY BELLS-like operation.*
+
+SPECTRE
+Counter-terrorism related compartment, probably no longer in use.*
+
+LOMA
+This compartment possibly protects nuclear-related information.*
+
+ICS / PH / ZH
+Compartments used by FEMA for continuity of government information and communications. Initiated in 1983, not clear whether these are still used.*
+
+HOLLOW TILE (HT)
+SCI control system or Special Access Program for the Air Intelligence Agency.*
+
+
+SAP compartments
+
+Special Access Programs (SAPs) are created to control access, distribution, and protection of particularly sensitive information. Each SAP is identified by a nickname which consists of two unassociated, unclassified words. Additionally, a Special Access Program Central Office (SAPCO) can also assign a single classified codeword to the program. These can be changed regularly. The nickname and the codeword can be abbreviated into an unclassified two or three-letter Program Identifier (PID).
+
+There are over 100 SAPs, with many having numerous compartments and sub-compartments. More than 50 SAPs protect operations and capabilities of the Joint Special Operations Command (JSOC). Many others are for military procurement, acquisition, and testing programs. The existance of a SAP can be acknowledged or unacknowledged.*
+
+Most SAPs protect military operational, tactical and strategical programs, but SAPs may also be created by the Secretaries of State, Energy, Homeland Security and the Attorney General r their principal deputies.
+
+The classification line for SAP information shows the words SPECIAL ACCESS REQUIRED, often abbreviated as SAR, followed by the program's nickname or codeword. Examples of program nicknames are BUTTER POPCORN, MEDIAN BELL and SENIOR ICE.
+
+In a classification line this is shown like: TOP SECRET//SAR-MEDIAN BELL
+
+Multiple SAP's are shown like: TOP SECRET//SAR-MB/SAR-BP 
+
+
+Some examples of actual Special Access Programs are:
+
+YANKEE WHITE
+People who have been cleared for this SAP have unfettered access to presidential workspaces that might contain classified information at any level and may also carry a loaded weapon when the president is around. This clearance requires the most extensive background investigation.*
+
+
+COPPER GREEN / MATCHBOX
+This SAP protected a program for training interrogators to use techniques that had been reverse-engineered by the military's agency that trained special operations forces on how to resist torture.
+
+
+? (CD)
+This SAP is identified by a codeword that is still classified and is only known by its abbreviation. It protects all information related to the Air Force Flight Test Center at Groom Lake (aka Area 51).*
+
+
+Other known Special Access Programs (SAPs) and related Alternative or Compensatory Control Measures (ACCMs) are:
+- ADOBE, ANTEMATE, BELL WEATHER, BERNIE, BLACK LIGHT, BLUE MAIL, BLUE ZEPHYR, CAVALRY, CENTENNIAL, CHALK series, CHANNEL series, CITADEL, CLOUD GAP, COMPASS LINK, CONSTANT HELP, CONSTANT PISCES, CONSTANT STAR, COPPER COAST, CORONET PHOENIX, DISTANT PHOENIX, ELEGANT LADY, FIREANT, FOOTPRINT, GALAXY, GENTRY, GIANT CAVE, GIANT DODGE, GRASS BLADE, GREATER SLOPE, GREYHOUND, GULF, GUSTY series, GYPSY series, HAVE DJINN, HAVE FLAG, HAVE TRUMP, HAVE VOID, ISLAND SUN, LEO, LINK series, MALLARD, MERIDIAN, MILKYWAY, MUSTANG, OLYMPIC, OMEGA, OSPREY series, OVERTONE, OXIDE, OZONE, PANTHER series, PAVE RUNNER, PIRATE SWORD, POLO STEP, PROCOMM, PROJECT 19, PROJECT 643, PROJECT 9000, RADIUS, RAVEN, RETRACT series, REWARD, ROSETTA STONE, RUBY, SCATHE series, SCIENCE series, SEA BASS, SEEK CLOCK, SENIOR NEEDLE, SENIOR NIKE, SIERRA, SIT-II, SOFTRING, SPEAR, SUTER, STEEL PUMA, TALON RADIANCE, TAPESTRY, THEME CASTLE, THERMAL VICAR, THIRST WATCHER, THIRSTY SABER, TIGER LAKE, TITRANT RANGER, CAPACITY GEAR, TRACTOR series, UMBRELLA and WHITE KNIGHT.*
+
+
+SAP compartments and sub-compartments
+Special Access Programs can be divided into compartments, sub-compartments and programs. Compartments and sub-compartments can be identified by a two-word unclassified nickname or an alphanumeric designator. They are separated by spaces and they are listed in ascending alphabetic and numeric order. The classification markings do not show the hierarchy beyond the sub-compartment level.
+
+In a classification line this is shown like: TOP SECRET//SAR-MB A691 D722
+
+
+
+
+Dissemination markings
+
+Dissemination markings or caveats are used to restrict the dissemination of information within only those people who have the appropriate clearance level and the need to know the information. Dissemination markings can also be used to control information which is unclassified. Some markings are used by multiple agencies, others are restricted to use by one agency.
+
+
+Markings used by multiple agencies:
+- FOR OFFICIAL USE ONLY (FOUO)
+- SENSITIVE INFORMATION (SINFO, defunct since 2002)
+- LAW ENFORCEMENT SENSITIVE (LES)
+
+
+Intelligence community markings:
+- WARNING NOTICE - INTELLIGENCE (WNINTEL; eliminated in 1987)
+- NOCONTRACT (eliminated in 1987)
+- ORIGINATOR CONTROLLED (ORCON) (OC)
+- ORIGINATOR CONTROLLED-USGOV (ORCON-USGOV, since 2013)
+- CONTROLLED IMAGERY (IMCON) (IMC)
+- SOURCES AND METHODS INFORMATION (SAMI, defunct since 2009)
+- NO FOREIGN NATIONALS (NOFORN) (NF)
+- PROPRIETARY INFORMATION (PROPIN) (PR)
+- AUTHORIZED FOR RELEASE TO (REL TO) [country trigraph or coalition tetragraph]
+- Releasable by Information Disclosure Official (RELIDO)
+- Foreign Intelligence Surveillance Act (FISA)
+- DISPLAY ONLY [country trigraph or coalition tetragraph]
+
+
+National Security Agency (NSA) markings:
+- [country trigraph] EYES ONLY
+NSA also used SIGINT Exchange Designators, which were gradually replaced by the 'REL TO [...]' marking. Some former SIGINT Exchange Designators were:
+- FRONTO
+- KEYRUT
+- SEABOOT
+- SETTEE
+
+National Geospatial intelligence Agency (NGA) markings:
+- LIMITED DISTRIBUTION (LIMDIS) (DS)
+- RISK SENSITIVE (RSEN)
+
+
+Department of Defense (DoD) markings: 
+- NC2-ESI
+- SPECIAL CATEGORY (SPECAT, defunct since 2010)
+
+
+Department of Homeland Security (DHS) markings:
+- SENSITIVE SECURITY INFORMATION (SSI)
+
+
+State Department (DoS) markings: 
+- EXCLUSIVE DISTRIBUTION (EXDIS) (XD)
+- NO DISTRIBUTION (NODIS) (ND)
+- SENSITIVE BUT UNCLASSIFIED (SBU)
+- SBU NOFORN
+
+
+Drug Enforcement Administration (DEA) markings:
+- DEA SENSITIVE (DSEN)
+
+
+Nuclear weapons related markings: 
+- RESTRICTED DATA (RD)
+- FORMERLY RESTRICTED DATA (FRD)
+- DOD UNCLASSIFIED CONTROLLED NUCLEAR INFORMATION (DCNI)
+- DOE UNCLASSIFIED CONTROLLED NUCLEAR INFORMATION (UCNI)
+- TRANSCLASSIFIED FOREIGN NUCLEAR INFORMATION (TFNI)
+
+In a classification line this is shown like: SECRET//SI//ORCON
+
+Multiple markings are shown like: SECRET//SI//ORCON/NOFORN
+
+
+Nuclear weapons related markings
+The markings Restricted Data (RD) and Former Restricted Data (FRD) are used by the Department of Defense and the Department of Energy for information about design and operation of nuclear warheads. Both can have the following two additional sub-markings:
+
+- CRITICAL NUCLEAR WEAPON DESIGN INFORMATION (CNWDI)
+- SIGMA (SG, followed by a number between 1 and 20)
+
+In a classification line this is shown like: SECRET//RD-CNWDI
+
+Multiple SIGMA markings are shown like: SECRET//RD-SIGMA 2 4
+
+
+Internal markings
+Some intelligence agencies also use internal markings, indicating that information may not be released or shown to anyone outside that particular agency without proper permission. Internal markings are shown after the dissemination markings at the very end of a classification line.
+
+
+Central Intelligence Agency (CIA) internal markings:*
+- CIA INTERNAL USE ONLY
+- Administrative Internal Use Only (AIUO)
+
+
+Federal Bureau of Investigation (FBI) internal markings:
+- SENSITIVE
+- JUNE (defunct)
+- [undisclosed] *
+
+
+National Security Agency (NSA) internal markings:
+These markings are used to identify a COI or CoI, which stands for Community Of Interest. It seems that this term has recently been replaced by Secure Community of Interest (SCoI). Recently disclosed COI identifiers are:
+- BULLRUN
+- ENDUE
+- NOCON
+
+In a classification line this is shown like: TOP SECRET//SI//NOFORN/BULLRUN
+
+
+Coalition designators
+The designators or tetragraphs which are used in the dissemination marking "AUTHORIZED FOR RELEASE TO (REL TO)" are listed here:
+
+- ABCA: American, British, Canadian, Australian (and New Zealand Armies’ Program)
+- ACGU: Australia, Canada, Great Britain, United States (Four Eyes)
+- AFSC: Afghanistan SIGINT Coalition
+- BWCS: Biological Weapons Convention States
+- CFCK: Combined Forces Command, Korea
+- CMFC: Combined Maritime Forces Central
+- CMFP: Cooperative Maritime Forces Pacific
+- CPMT: Civilian Protection Monitoring Team (for Sudan)
+- CWCS: Chemical Weapons Convention States
+- ECTF: European Counter-Terrorism Forces
+- EFOR: European Union Stabilization Forces in Bosnia
+- FVEY: Five Eyes (Australia, Canada, New Zealand, UK, US)
+- GCTF: Global Counter-Terrorism Forces
+- GMIF: Global Maritime Interception Forces
+- IESC: International Events Security Coalition
+- ISAF: International Security Assistance Forces (for Afghanistan)
+- KFOR: Stabilization Forces in Kosovo
+- MCFI: Multinational Coalition Forces – Iraq
+- MIFH: Multinational Interim Force Haiti
+- NACT: North African Counter-Terrorism Forces
+- NATO: North Atlantic Treaty Organization
+- OSAG: Olympic Security Advisory Group
+- UNCK: United Nations Command, Korea
+
+
+CAPCO
+In order to prevent codewords being assigned twice, the Controlled Access Program Coordination Office (CAPCO) lists all codenames and authorized abbreviations of Sensitive Compartmented Information (SCI) and Special Access Programs (SAPs) in the Authorized Classification and Control Markings Register or CAPCO list.
+In 2013 this responsibility was transferred to the Office of the National Counterintelligence Executive (ONCIX), Special Security Directorate (SSD), Security Markings Program (SMP).
+
+
+NSA Classification Guides
+- Classification Guide for SIGINT material from 1945-1967 (2011)
+- Classification Guide for Computer Network Exploitation (2010)
+- Classification Guide for Project BULLRUN (2010)
+- Classification Guide for Cryptgraphic Modernization (pdf) (2010)
+- Classification Guide for FISA, PAA and FAA Activities (pdf) (2009)
+- Classification Guide for STELLARWIND (pdf) (2009)
+- Classification Guide for ECI PAWLEYS (2006)
+- Classification Guide for Cryptanalysis (2005)
+- Classification Guide for ECI WHIPGENIE (2004)
+- Classification Guide for Cellular communications interception (undated)
+
+
+
+Links and Sources
+- The 2015 Intelligence Community Directive on Controlled Access programs (pdf)
+- The latest SCI compartments: My First FOIA Request: ODNI CAPCO v6 + Update
+- TheWeek.com: What Edward Snowden didn't disclose
+- Wikipedia articles:
+  - Classified information in the United States
+  - Sensitive Compartmented Information
+  - Special access program
+- The 2013 Intelligence Community Classification and Control Markings Implementation Manual (pdf)
+- The 2013 DoD Special Access Program (SAP) Instruction (pdf)
+- The 2012 NRO Review and Redaction Guide (pdf)
+- The 2008 DNI Authorized Classification and Control Markings Register (pdf)
+- The 2004 listing of Country Code Trigraphs and Coalition Tetragraphs (pdf)
+- Article about Security Clearances and Classifications
+- Some notes about Sensitive Compartmented Information
+- About The 5 secret code words that define our era
+- Marc Ambinder & D.B. Grady, Deep State, Inside the Government Secrecy Industry, 2013, p. 164-167.
+- William M. Arkin, Code Names, Deciphering U.S. Military Plans, Programs, and Operations in the 9/11 World, Steerforth Press, 2005.
