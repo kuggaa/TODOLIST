@@ -1,0 +1,32 @@
+2017 is the year of change. Changes to US privacy law, changes to net neutrality policies, changes to surveillance laws, and changes to things you can’t even expect. Some of us in the West have believed we’ve lived a seemingly “free” existence with regard to those subjects but we now have an awakening upon us. There are many other nations outside the US and the UK that already have censorship as a part of their lives. It’s time to future proof our OPSEC plans for 2017. Here are the new rules:
+
+VPN’s Are Mandatory
+
+We know that everyone has their own threat model and not everyone feels the need to hide their Internet activity but now the lowest threshold of privacy should require a VPN. One example is this: It’s now a common tactic that people who aren’t agreed with be targeted personally, professionally, and by any means necessary. Someone denouncing Trump have been targeted at their homes, had hundreds of people calling their phones, and graffiti drawn on their house. And let’s be honest, it’s not just Trump supporters, for people believing in the Right can also be targeted and this includes your Internet connection.
+
+For those expressing their opinions online on a shared Internet connection like in a workplace or a coffee shop, make sure you’re on a VPN. Many of the privacy conscious people today already have this but the next step is getting our parents and loved ones who don’t really have an opinion. These are the people that even if they aren’t the main target of the abuse, are the weakest link when it comes to accessing you.
+
+Get your mum a VPN for her birthday.
+
+VPN’s Cannot Be Trusted
+
+And now we need to admit that while this is a basic line of defense, VPN providers cannot be trusted. They can’t be trusted to protect our information, they can’t be trusted to securely offer a service, and they can’t be trusted to provide any realistic layer of security to the privacy conscious. Reasons? OK:
+
+VPNs are a single point of attack: We have to admit that using a VPN actually makes it easier for us to be spied on because NSA/GCHQ/FiveEyes know each one of these providers and have them tapped. It’s much easier to tap a VPN provider than it is a whole bunch of hosts across the world. (Although they do both. I’m just saying it’s easier.) While a VPN can hide you from your ISP, all you’re doing is moving to a different ISP.
+VPNs introduce vulnerabilities: If we assume that a VPN is providing a layer of transport security and hiding the traffic that we’re sending, we are wrong. It is trying to do this, but there are so many (see all) that are misconfigured to use outdated technology or misconfigure their servers so that entire swaths of traffic are accessible attackers that don’t need NSA clearance. Remember the time most VPNs would leak real IPs?
+VPNs are liars: An anecdotal story from the lead developer of the Tor Project can be paraphrased like this: A VPN provider came up and said, “Handling subpoenas and court orders is easy, I just down reply to them.” Everyone claps at their courage. Later that day while talking to law enforcement, an investigator asked “Why can’t you be like XXX” naming the previous VPN provider. “XXX complies quickly and every time to every request.” This should serve as a reminder to ourselves. VPN providers are not somehow above the law in any jurisdiction. The truth is, every single VPN provider will turn you in at a moments notice because they don’t care about you no matter what they say.
+I’m not saying stop using VPN’s unilaterally, I’m saying for the privacy conscious, it’s time to decide whether a VPN is enough or we need to go to tor full time.
+
+The Tor Browser Is Not Enough
+
+I’ve written before about the amount of effort is involved in making the Tor Browser secure, and there is. But are you using it securely? Be honest, have you set the Security Slider on low? Did you know there was a security slider? Did you know there is a hardened version of Tor Browser? How about a sandboxed version of Tor Browser? I’ll talk about them below but whether you know what these are, what should they tell you: That Tor Browser is the lowest hanging fruit to tor and it should be protected. In 2017, we need to make additional efforts to defend ourselves from attack.
+
+Tor Browser Defaults: By default your Tor Browser comes with the Security Slider set to “Low.” Right now, at least dial it to Medium. What do you have to lose? This defends against most if not all of the known attacks that are out there that could de-anonymize you if you visited the wrong web page. If it’s set to low, there are many fingerprinting attacks that are possible and you’re putting yourself at risk.
+Tor Browser Window Size: Are you reading this from the Tor Browser right now? Good! Are you reading it with the screen maximized? Bad. One of the features baked into TBB is that it opens up a windows that is a common size. If you change that window size, that’s a feature that you could be printed on.
+Tor Browser Hardened: The hardened version of TBB factors in a lot of compile-time hardening rules that is aimed more at defending Firefox from being exploited that anything tor related. It’s almost a drop in replacement for the normal TBB and should be mandatory for anyone privacy conscious. Tor Browser Bundle Hardened
+Sandbox Tor Browser: This is now the cutting edge of TBB security. Because we need to stop trusting every application we run, we run them in a sandboxed container and Tor Browser Bundle now has support for this. This is still in testing but from what I’ve seen it works great. Tor Browser Bundle Sandbox
+What’s next?
+
+We’ve talked about network security mostly because we have very clear answers for that. The other clear process is to secure your operating system not by running the latest patches but by running a secure OS like Subgraph OS or Qubes.
+
+This is already a long enough post but I’ll leave you with this: We’ve discussed that everyone should be doing their own personal threat model. Well it’s time that we update our threat model to be a bit tighter. Now are the times when things only get worse from a global security perspective and the more divisive the world becomes, the greater the risk of attack, and the more vigilant we must become. Stay dark.
