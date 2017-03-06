@@ -30,3 +30,32 @@ What’s next?
 We’ve talked about network security mostly because we have very clear answers for that. The other clear process is to secure your operating system not by running the latest patches but by running a secure OS like Subgraph OS or Qubes.
 
 This is already a long enough post but I’ll leave you with this: We’ve discussed that everyone should be doing their own personal threat model. Well it’s time that we update our threat model to be a bit tighter. Now are the times when things only get worse from a global security perspective and the more divisive the world becomes, the greater the risk of attack, and the more vigilant we must become. Stay dark.
+
+4
+4For the past several years interest in encrypted and anonymous communications has spread to a much wider audience.
+
+VPN providers are particularly popular among BitTorrent users, who by default broadcast their IP-addresses to hundreds of people when downloading a popular file.
+
+The goal of using a VPN is to hide one’s ISP IP-address, but a newly discovered vulnerability shows that this is easily bypassed on some providers.
+
+The problem, uncovered by VPN provider Perfect Privacy (PP), is a simple port forwarding trick. If an attacker uses the same VPN as the victim the true IP-address can be exposed by forwarding traffic on a specific port.
+
+The security flaw affects all VPN protocols including OpenVPN and IPSec and applies to all operating systems.
+
+“Affected are VPN providers that offer port forwarding and have no protection against this specific attack,” PP notes.
+
+For example, if an attacker activates port forwarding for the default BitTorrent port then a VPN user on the same network will expose his or her real IP-address (in a setting where users share the same IP-address).
+
+The same is true for regular web traffic, but in that case the attacker has to direct the victim to a page that connects to the forwarded port, as Perfect Privacy explains in detail.
+
+The vulnerability affected the setup of various large VPN providers, who were warned last week. This included Private Internet Access (PIA), Ovpn.to and nVPN, who have all fixed the issue before publication.
+
+PIA informs TorrentFreak that their fix was relatively simple and was implemented swiftly after they were notified.
+
+“We implemented firewall rules at the VPN server level to block access to forwarded ports from clients’ real IP addresses. The fix was deployed on all our servers within 12 hours of the initial report,” PIA’s Amir Malik says.
+
+In addition, PIA complimented Perfect Privacy for responsibly disclosing the vulnerability prior to making it public and awarded their competitor with a $5,000 bounty under its Whitehat Alert Security Program.
+
+Not all VPN providers were tested so it is likely that many others are still vulnerable. Hopefully, these will address the issue in the near future.
+
+Update: PIA’s initial solution didn’t fix the problem. The company informed its users via email and recommends them to download the latest version of the client.
